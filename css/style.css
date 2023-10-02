@@ -110,9 +110,12 @@ header {
 
 /* +++++ REVERSE +++++  */
 
-.grigia {
+.reverse {
     background-color: #d3d3d3;
 }
 
-
+.cambio {
+    display:  flex;
+    flex-direction: row-reverse;
+}
 /* +++++  FOOTER  +++++ */
