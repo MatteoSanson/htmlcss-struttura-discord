@@ -51,8 +51,13 @@ header {
     min-width: 150px;
 }
 
+.login {
+    text-align: right;
+}
+
 .link {
     flex-grow: 1;
+    text-align: center;
 }
 
 .piede {
