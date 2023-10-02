@@ -1,0 +1,1 @@
+# Scopo dell'esercizio è di ricreare il layout di pagina come da immagine.
