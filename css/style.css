@@ -4,6 +4,8 @@
     border: 0;
     box-sizing: border-box;
 }
+/* RESET  */
+
 
 /* +++++  DEBUG  +++++  */
 header {
@@ -18,21 +20,45 @@ header {
     height: 300px;
 }
 
+.contenuto {
+    height: 90%;
+}
+
+.giallo {
+    height: 30px;
+}
+
+.info-piede {
+    height: 70%;
+}
+
+.riga {
+    height: 300px;
+}
+
+.container {
+    height: 70%;
+}
+/* +++++  /DEBUG  +++++  */
+
+
 
 /* +++++  COMMON  +++++  */
-.testa, .giallo {
+.testa, .giallo, .piede, .riga, .container, .grande, .right-scuro {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo, .link, .login {
-    padding: 4px 4px 0 4px;
+    padding: 4px;
 }
 
-.logo, .link, .login, .left, .right {
+.logo, .link, .login, .left, .right, .contenuto, .left-scuro, .info-piede {
     border: 2px dashed black;
 }
+/* +++++  /COMMON  +++++  */
+
 
 
 /* +++++  HEADER  +++++ */
@@ -40,15 +66,10 @@ header {
     background-color: #add8e6;
 }
 
-.testa {
-    width: 100%;
-}
 
 .giallo {
-    display: flex;
     background-color: #daa520;
     width: 800px;
-    height: 30px;
     align-items: stretch;
 }
 
@@ -66,33 +87,22 @@ header {
 }
 
 .piede {
-    color: white;
     background-color: #00008b;
-    display: flex;
 }
 
 .info-piede {
     background-color: #ee82ee;
     width: 60%;
-    height: 70%;
-    margin: auto;
-    border: 2px dashed black;
 }
+/* +++++  /HEADER  +++++ */
+
 
 
 /* +++++  MAIN  +++++  */
-.riga {
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    align-items: center;
-}
-
 .container {
-    display: flex;
     justify-content:space-around;
+    align-items: stretch;
     width: 60%;
-    height: 70%;
 }
 
 .left {
@@ -107,8 +117,20 @@ header {
     background-color: #ffc0cb;
 }
 
-/* +++++ REVERSE +++++  */
+.grande {
+    height: 500px;
+    background-color: #d3d3d3;
 
+}
+
+.contenuto {
+    background-color: #228b22;
+}
+/* +++++  /MAIN  +++++  */
+
+
+
+/* +++++ REVERSE +++++  */
 .reverse {
     background-color: #d3d3d3;
 }
@@ -117,4 +139,53 @@ header {
     display:  flex;
     flex-direction: row-reverse;
 }
+/* +++++ /REVERSE +++++  */
+
+
+
 /* +++++  FOOTER  +++++ */
+
+/* +++++ RIGA GRANDE +++++ */
+footer {
+    background-color: #23272a;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.riga-scura {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+.container-scuro {
+    display: flex;
+    justify-content:space-around;
+    background-color: yellow;
+    align-items: stretch;
+    width: 60%;
+    height: 80%;
+}
+
+.left-scuro {
+    width: 25%;
+    background-color: #f08080;
+}
+
+.right-scuro {
+    flex-grow: 2;
+    background-color: #20b2aa;
+    align-items: stretch;
+}
+
+.sezione {
+    border: 2px dashed white;
+    width: calc(100% / 4);
+}
+/* +++++ /RIGA GRANDE +++++ */
+
+
+/* +++++  /FOOTER  +++++ */
