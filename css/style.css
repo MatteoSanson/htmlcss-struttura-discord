@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* DEBUG  */
+/* +++++  DEBUG  +++++  */
 header {
     height: 365px;
 }
@@ -18,8 +18,8 @@ header {
     height: 300px;
 }
 
-/* COMMON  */
 
+/* +++++  COMMON  +++++  */
 .testa, .giallo {
     display: flex;
     justify-content: center;
@@ -28,9 +28,15 @@ header {
 
 .logo, .link, .login {
     border: 2px dashed black;
+    padding: 4px 4px 0 4px;
 }
 
-/* HEADER  */
+.left, .right {
+    border: 2px dashed black;
+}
+
+
+/* +++++  HEADER  +++++ */
 header {
     background-color: #add8e6;
 }
@@ -75,7 +81,38 @@ header {
 }
 
 
-/* MAIN  */
+/* +++++  MAIN  +++++  */
+.riga {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    width: 60%;
+    height: 70%;
+}
+
+.left {
+    width: 60%;
+    height: 100%;
+    background-color: #1e90ff;
+}
+
+.right {
+    width: 40%;
+    height: 100%;
+    background-color: #ffc0cb;
+}
+
+/* +++++ REVERSE +++++  */
+
+.grigia {
+    background-color: #d3d3d3;
+}
 
 
-/* FOOTER  */
+/* +++++  FOOTER  +++++ */
