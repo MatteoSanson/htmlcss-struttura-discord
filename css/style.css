@@ -6,12 +6,71 @@
 }
 
 /* DEBUG  */
+header {
+    height: 365px;
+}
 
+.testa {
+    height: 60px;
+}
+
+.piede {
+    height: 300px;
+}
 
 /* COMMON  */
 
+.testa, .giallo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo, .link, .login {
+    border: 2px dashed black;
+}
+
 /* HEADER  */
+header {
+    background-color: #add8e6;
+}
+
+.testa {
+    width: 100%;
+}
+
+.giallo {
+    display: flex;
+    background-color: #daa520;
+    width: 800px;
+    height: 30px;
+    align-items: stretch;
+}
+
+.logo, .login{
+    min-width: 150px;
+}
+
+.link {
+    flex-grow: 1;
+}
+
+.piede {
+    color: white;
+    background-color: #00008b;
+    display: flex;
+}
+
+.info-piede {
+    background-color: #ee82ee;
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    border: 2px dashed black;
+}
+
 
 /* MAIN  */
+
 
 /* FOOTER  */
